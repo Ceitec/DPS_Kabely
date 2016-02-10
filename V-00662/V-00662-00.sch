@@ -62,7 +62,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -135,6 +135,18 @@ DIN A4, landscape with location and doc. field</description>
 <sheets>
 <sheet>
 <plain>
+<circle x="38.1" y="116.84" radius="7.62" width="0.1524" layer="97"/>
+<polygon width="0.1524" layer="97">
+<vertex x="30.48" y="116.84"/>
+<vertex x="45.72" y="116.84" curve="-90"/>
+<vertex x="38.1" y="109.22" curve="-90"/>
+</polygon>
+<circle x="35.56" y="119.38" radius="1.016" width="0.1524" layer="93"/>
+<circle x="40.64" y="119.38" radius="1.016" width="0.1524" layer="93"/>
+<circle x="40.64" y="114.3" radius="1.016" width="0.1524" layer="93"/>
+<circle x="35.56" y="114.3" radius="1.016" width="0.1524" layer="93"/>
+<text x="26.67" y="127" size="1.778" layer="97">Ze strany pájení</text>
+<text x="34.29" y="105.664" size="1.778" layer="97">K-004</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
